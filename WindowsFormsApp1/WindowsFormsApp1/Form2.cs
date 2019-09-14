@@ -36,33 +36,38 @@ namespace WindowsFormsApp1
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-            x = Convert.ToDouble(Console.ReadLine());
+
+        }
+
+        private void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+
         }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
-            y = Convert.ToDouble(Console.ReadLine());
-        }
-
-        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void TextBox3_TextChanged(object sender, EventArgs e)
         {
-             a = Convert.ToDouble(Console.ReadLine());
+
         }
 
         private void TextBox4_TextChanged(object sender, EventArgs e)
         {
-            b = Convert.ToDouble(Console.ReadLine());
-            answ = a + b + x + y;
-            comboBox1.Text=
+
         }
+
         private void Button2_Click(object sender, EventArgs e)
         {
-            ComboBox sbyt = comboBox1;
+            x = double.Parse(textBox1.Text);
+            y = double.Parse(textBox2.Text);
+            a = double.Parse(textBox3.Text);
+            b = double.Parse(textBox4.Text);
+            answ = y + x + b + a;
+            textBox5.Text = Convert.ToString(answ);
+            TextBox sbyt = textBox5;
             sbyt.Show();
         }
 
