@@ -38,5 +38,10 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void Title_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

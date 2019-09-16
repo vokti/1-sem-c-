@@ -53,16 +53,16 @@
     <Compile Include="title.Designer.cs">
       <DependentUpon>title.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="LW 1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="LW 1.Designer.cs">
+      <DependentUpon>LW 1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="LW 1.resx">
+      <DependentUpon>LW 1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>
