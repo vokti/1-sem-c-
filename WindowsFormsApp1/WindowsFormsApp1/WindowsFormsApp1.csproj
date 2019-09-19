@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LW1title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW1title.Designer.cs">
+      <DependentUpon>LW1title.cs</DependentUpon>
+    </Compile>
     <Compile Include="title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="LW 1.resx">
       <DependentUpon>LW 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW1title.resx">
+      <DependentUpon>LW1title.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>

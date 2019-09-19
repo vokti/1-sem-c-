@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form f1 = new title();
+            Form f1 = new LW1title();
             f1.Show();
             this.Close();
         }
