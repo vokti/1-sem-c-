@@ -36,7 +36,8 @@ namespace WindowsFormsApp1
 
         private void Button2_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            Form po = new exit();
+            po.Show();
         }
 
         private void Title_Load(object sender, EventArgs e)

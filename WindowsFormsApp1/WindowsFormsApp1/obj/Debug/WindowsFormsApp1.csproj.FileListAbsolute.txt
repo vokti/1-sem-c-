@@ -32,3 +32,4 @@ D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW1title.resources
+D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exit.resources
