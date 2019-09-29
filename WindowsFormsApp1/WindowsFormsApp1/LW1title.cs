@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+
         private void Button1_Click(object sender, EventArgs e)
         {
             Form f = new Form2();
@@ -30,5 +31,11 @@ namespace WindowsFormsApp1
             f2.Show();
             this.Hide();
         }
+
+        private void LW1title_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

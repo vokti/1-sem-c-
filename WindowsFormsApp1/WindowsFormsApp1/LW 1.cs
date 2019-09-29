@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form2 : Form
     {
-        double x, y, b, a,answ;
+        double z, x, b, a, y;
         public Form2()
         {
             InitializeComponent();
@@ -45,6 +45,16 @@ namespace WindowsFormsApp1
 
         }
 
+        private void TextBox4_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
         }
@@ -61,13 +71,15 @@ namespace WindowsFormsApp1
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            x = double.Parse(textBox1.Text);
-            y = double.Parse(textBox2.Text);
-            a = double.Parse(textBox3.Text);
-            b = double.Parse(textBox4.Text);
-            answ = y + x + b + a;
-            textBox5.Text = Convert.ToString(answ);
+            a = double.Parse(textBox1.Text);
+            b = double.Parse(textBox2.Text);
+            x = double.Parse(textBox3.Text);
+            y = Math.Sin(Math.Pow(Math.Pow(x, 2) + a,2));
+            z = Math.Pow(x, 2) / a + Math.Cos(Math.Pow(x + b, 3));
+            textBox5.Text = "y=" + Convert.ToString(y);
+            textBox4.Text = "z=" + Convert.ToString(z);
             TextBox sbyt = textBox5;
+            textBox4.Show();
             sbyt.Show();
         }
 
