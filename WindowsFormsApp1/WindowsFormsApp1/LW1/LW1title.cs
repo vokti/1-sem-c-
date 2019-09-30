@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form f = new Form2();
+            Form f = new LW1();
             f.Show();
             this.Hide();
         }

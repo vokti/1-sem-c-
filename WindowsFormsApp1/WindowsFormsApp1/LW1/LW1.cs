@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class LW1 : Form
     {
         double z, x, b, a, y;
-        public Form2()
+        public LW1()
         {
             InitializeComponent();
         }
@@ -45,15 +45,6 @@ namespace WindowsFormsApp1
 
         }
 
-        private void TextBox4_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
@@ -71,16 +62,28 @@ namespace WindowsFormsApp1
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            a = double.Parse(textBox1.Text);
-            b = double.Parse(textBox2.Text);
-            x = double.Parse(textBox3.Text);
-            y = Math.Sin(Math.Pow(Math.Pow(x, 2) + a,2));
-            z = Math.Pow(x, 2) / a + Math.Cos(Math.Pow(x + b, 3));
-            textBox5.Text = "y=" + Convert.ToString(y);
-            textBox4.Text = "z=" + Convert.ToString(z);
-            TextBox sbyt = textBox5;
-            textBox4.Show();
-            sbyt.Show();
+            try
+            {
+                a = double.Parse(textBox1.Text);
+                b = double.Parse(textBox2.Text);
+                x = double.Parse(textBox3.Text);
+                y = Math.Sin(Math.Pow(Math.Pow(x, 2) + a, 2));
+                z = Math.Pow(x, 2) / a + Math.Cos(Math.Pow(x + b, 3));
+                textBox5.Text = Convert.ToString(y);
+                textBox4.Text = Convert.ToString(z);
+                label4.Show();
+                textBox5.Show();
+                label5.Show();
+                textBox4.Show();
+            }
+            catch(DivideByZeroException)
+            {
+                MessageBox.Show("Ошибка деления на 0");
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка данных");
+            }
         }
 
 

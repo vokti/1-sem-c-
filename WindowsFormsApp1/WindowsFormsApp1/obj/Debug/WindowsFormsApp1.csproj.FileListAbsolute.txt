@@ -10,7 +10,6 @@ C:\Users\anima\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF
 C:\Users\anima\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.title.resources
 C:\Users\anima\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
-C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.title.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
@@ -35,3 +34,4 @@ D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exit.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exit.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW1title.resources
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW1.resources

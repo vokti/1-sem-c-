@@ -76,6 +76,7 @@
             this.Name = "exit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Выход";
+            this.Load += new System.EventHandler(this.Exit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

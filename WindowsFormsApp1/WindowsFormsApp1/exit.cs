@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
         {
             this.Hide();
         }
+
+        private void Exit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
