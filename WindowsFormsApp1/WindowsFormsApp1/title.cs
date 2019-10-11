@@ -69,5 +69,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Form LW3q = new LW3.LW3title();
+            LW3q.Show();
+            this.Hide();
+        }
     }
 }

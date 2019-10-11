@@ -62,6 +62,25 @@
     <Compile Include="LW1\LW1title.Designer.cs">
       <DependentUpon>LW1title.cs</DependentUpon>
     </Compile>
+    <Compile Include="LW3\Class1.cs" />
+    <Compile Include="LW3\PassWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW3\PassWin.Designer.cs">
+      <DependentUpon>PassWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW3\LW3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW3\LW3.Designer.cs">
+      <DependentUpon>LW3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW3\LW3title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW3\LW3title.Designer.cs">
+      <DependentUpon>LW3title.cs</DependentUpon>
+    </Compile>
     <Compile Include="title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +103,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LW1\LW1title.resx">
       <DependentUpon>LW1title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW3\LW3.resx">
+      <DependentUpon>LW3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW3\LW3title.resx">
+      <DependentUpon>LW3title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW3\PassWin.resx">
+      <DependentUpon>PassWin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>
