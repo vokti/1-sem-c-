@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -40,6 +41,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -72,7 +75,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 38);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // label1
             // 
@@ -101,7 +103,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(182, 38);
             this.textBox2.TabIndex = 6;
-            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // label3
             // 
@@ -120,7 +121,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(182, 38);
             this.textBox3.TabIndex = 8;
-            this.textBox3.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
             // 
             // textBox5
             // 
@@ -130,7 +130,6 @@
             this.textBox5.Size = new System.Drawing.Size(262, 38);
             this.textBox5.TabIndex = 12;
             this.textBox5.Visible = false;
-            this.textBox5.TextChanged += new System.EventHandler(this.TextBox5_TextChanged);
             // 
             // textBox4
             // 
@@ -163,6 +162,10 @@
             this.label5.Text = "Z=";
             this.label5.Visible = false;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // LW1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,7 +186,7 @@
             this.Name = "LW1";
             this.Text = "LW1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,5 +205,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
