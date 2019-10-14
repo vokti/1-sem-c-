@@ -30,5 +30,6 @@ namespace WindowsFormsApp1.LW3
             na.Show();
             this.Hide();
         }
+
     }
 }

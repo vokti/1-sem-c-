@@ -47,5 +47,15 @@ namespace WindowsFormsApp1.LW3
             url.Show();
             this.Hide();
         }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

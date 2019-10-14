@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\1.jpg" />
+    <None Include="Resources\Annotation 2019-10-14 235405.png" />
     <Content Include="Безымянный %282%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
