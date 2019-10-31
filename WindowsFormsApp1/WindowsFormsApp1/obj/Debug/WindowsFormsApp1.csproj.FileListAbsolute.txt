@@ -39,3 +39,4 @@ C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\ob
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW3.LW3title.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW3.PassWin.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW4.LW4title.resources
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW4.LW4.resources
