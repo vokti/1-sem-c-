@@ -87,6 +87,18 @@
     <Compile Include="LW3\LW3title.Designer.cs">
       <DependentUpon>LW3title.cs</DependentUpon>
     </Compile>
+    <Compile Include="LW4\LW4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW4\LW4.Designer.cs">
+      <DependentUpon>LW4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW4\LW4title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW4\LW4title.Designer.cs">
+      <DependentUpon>LW4title.cs</DependentUpon>
+    </Compile>
     <Compile Include="title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LW3\PassWin.resx">
       <DependentUpon>PassWin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW4\LW4.resx">
+      <DependentUpon>LW4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW4\LW4title.resx">
+      <DependentUpon>LW4title.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>
