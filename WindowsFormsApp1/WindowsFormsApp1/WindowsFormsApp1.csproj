@@ -56,6 +56,12 @@
     <Compile Include="exit.Designer.cs">
       <DependentUpon>exit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="LW1\LW1title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="exit.resx">
       <DependentUpon>exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LW1\LW1.resx">
       <DependentUpon>LW1.cs</DependentUpon>

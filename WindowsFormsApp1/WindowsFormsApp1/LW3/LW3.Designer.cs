@@ -42,53 +42,42 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(431, 58);
             this.textBox1.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox1.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 35);
+            this.textBox1.Size = new System.Drawing.Size(250, 29);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox2.Location = new System.Drawing.Point(431, 107);
             this.textBox2.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox2.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 35);
+            this.textBox2.Size = new System.Drawing.Size(250, 29);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(431, 157);
             this.textBox3.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox3.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(250, 35);
+            this.textBox3.Size = new System.Drawing.Size(250, 29);
             this.textBox3.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(431, 213);
+            this.button1.Location = new System.Drawing.Point(431, 214);
             this.button1.MaximumSize = new System.Drawing.Size(350, 65);
+            this.button1.MinimumSize = new System.Drawing.Size(250, 35);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 62);
+            this.button1.Size = new System.Drawing.Size(250, 51);
             this.button1.TabIndex = 3;
             this.button1.Text = "Получить ответ";
             this.button1.UseVisualStyleBackColor = true;
@@ -96,22 +85,19 @@
             // 
             // textBox4
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox4.Location = new System.Drawing.Point(431, 293);
             this.textBox4.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox4.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(250, 35);
+            this.textBox4.Size = new System.Drawing.Size(250, 29);
             this.textBox4.TabIndex = 4;
             // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(1020, 706);
+            this.button2.Location = new System.Drawing.Point(1020, 670);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(185, 67);
             this.button2.TabIndex = 5;
@@ -165,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1217, 785);
+            this.ClientSize = new System.Drawing.Size(1217, 749);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

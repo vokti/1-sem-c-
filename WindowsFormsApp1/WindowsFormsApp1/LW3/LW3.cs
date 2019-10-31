@@ -29,10 +29,9 @@ namespace WindowsFormsApp1.LW3
             double t = Convert.ToDouble(textBox3.Text);
             return Tuple.Create(y0,v0,t);
         }
-        public double output(double y)
+        public void output(double y)
         {
             textBox4.Text = Convert.ToString(y);
-            return 1;
         }
         private void Button1_Click(object sender, EventArgs e)
         {
