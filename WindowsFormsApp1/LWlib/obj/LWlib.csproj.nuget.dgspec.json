@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
+        "projectName": "LWlib",
+        "projectPath": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
+        "packagesPath": "C:\\Users\\super pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\super pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

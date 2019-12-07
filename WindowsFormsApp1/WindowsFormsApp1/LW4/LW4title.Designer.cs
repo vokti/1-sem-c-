@@ -62,13 +62,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1364, 883);
+            this.ClientSize = new System.Drawing.Size(1364, 749);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "LW4title";
             this.RightToLeftLayout = true;
             this.Text = "LW4title";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.LW4title_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.LW4title_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();

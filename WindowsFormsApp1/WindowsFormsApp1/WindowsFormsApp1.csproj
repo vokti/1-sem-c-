@@ -171,5 +171,14 @@
     <None Include="Resources\Annotation 2019-10-14 235405.png" />
     <Content Include="Безымянный %282%29.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LW5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LWlib\LWlib.csproj">
+      <Project>{dda525fc-f069-4697-9554-5c0e2565c1e7}</Project>
+      <Name>LWlib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

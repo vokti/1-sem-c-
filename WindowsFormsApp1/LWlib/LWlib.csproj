@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\..\Windows.old\WINDOWS\SoftwareDistribution\Download\e31335173c3ebdda4a770d01aefe6f5d\amd64_Microsoft-Windows-NetFx3-OnDemand-Package~~amd64~~10.0.18362.1\msil_system.windows.forms_b77a5c561934e089_10.0.18362.1_none_ef83ce01d855bdc6\system.windows.forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
