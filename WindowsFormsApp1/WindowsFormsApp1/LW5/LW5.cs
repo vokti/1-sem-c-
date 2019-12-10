@@ -9,25 +9,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using LWlib;
 
-namespace WindowsFormsApp1.LW4
+namespace WindowsFormsApp1.LW5
 {
-    public partial class LW4 : Form
+    public partial class LW5 : Form
     {
-        public LW4()
+        public LW5()
         {
             InitializeComponent();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            LWlib.VV x=new VV();
-            LWlib.LW4C a=new LW4C();
-            x.Vivod(a.EX(x.Vvod(textBox1), x.Vvod(textBox2), x.Vvod(textBox3), x.Vvod(textBox4), x.Vvod(textBox5)),textBox6);
+            VV Vvi = new VV();
+            LW5c Ex = new LW5c();
+            Vvi.Vivod(Ex.Ex(dataGridView1, Vvi.Vvod(textBox1), Vvi.Vvod(textBox6), Vvi.Vvod(textBox2)), textBox3);
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Form x = new title();
+            Form x = new LW5title();
             x.Show();
             this.Close();
         }

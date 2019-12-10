@@ -99,6 +99,24 @@
     <Compile Include="LW4\LW4title.Designer.cs">
       <DependentUpon>LW4title.cs</DependentUpon>
     </Compile>
+    <Compile Include="LW5\LW5title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW5\LW5title.Designer.cs">
+      <DependentUpon>LW5title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW5\LW5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW5\LW5.Designer.cs">
+      <DependentUpon>LW5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW6\LW6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW6\LW6.Designer.cs">
+      <DependentUpon>LW6.cs</DependentUpon>
+    </Compile>
     <Compile Include="title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +158,15 @@
     <EmbeddedResource Include="LW4\LW4title.resx">
       <DependentUpon>LW4title.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LW5\LW5.resx">
+      <DependentUpon>LW5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW5\LW5title.resx">
+      <DependentUpon>LW5title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW6\LW6.resx">
+      <DependentUpon>LW6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,9 +198,7 @@
     <None Include="Resources\Annotation 2019-10-14 235405.png" />
     <Content Include="Безымянный %282%29.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="LW5\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\LWlib\LWlib.csproj">
       <Project>{dda525fc-f069-4697-9554-5c0e2565c1e7}</Project>

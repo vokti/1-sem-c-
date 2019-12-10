@@ -19,7 +19,7 @@ namespace WindowsFormsApp1.LW4
 
         private void LW4title_Paint(object sender, PaintEventArgs e)
         {
-            Image my_Image = Image.FromFile(@"D:\github\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\3.jpg");
+            Image my_Image = Image.FromFile(@"C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\3.jpg");
             Graphics my_Graphics = Graphics.FromImage(my_Image);
             Graphics f = e.Graphics;
             f.DrawImage(my_Image, new PointF(0.0F, 0.0F));
@@ -47,6 +47,13 @@ namespace WindowsFormsApp1.LW4
         private void LW4title_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form l = new title();
+            l.Show();
+            this.Close();
         }
     }
 }

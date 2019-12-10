@@ -38,10 +38,10 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -61,7 +61,7 @@
             this.textBox1.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox1.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 35);
+            this.textBox1.Size = new System.Drawing.Size(250, 29);
             this.textBox1.TabIndex = 14;
             // 
             // label1
@@ -81,7 +81,7 @@
             this.textBox2.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox2.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 35);
+            this.textBox2.Size = new System.Drawing.Size(250, 29);
             this.textBox2.TabIndex = 16;
             // 
             // label2
@@ -101,7 +101,7 @@
             this.textBox3.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox3.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(250, 35);
+            this.textBox3.Size = new System.Drawing.Size(250, 29);
             this.textBox3.TabIndex = 18;
             // 
             // label4
@@ -121,7 +121,7 @@
             this.textBox4.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox4.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(250, 35);
+            this.textBox4.Size = new System.Drawing.Size(250, 29);
             this.textBox4.TabIndex = 20;
             // 
             // label5
@@ -141,19 +141,8 @@
             this.textBox5.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox5.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(250, 35);
+            this.textBox5.Size = new System.Drawing.Size(250, 29);
             this.textBox5.TabIndex = 22;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(86, 340);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(231, 79);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -162,7 +151,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(231, 79);
             this.button2.TabIndex = 25;
-            this.button2.Text = "button2";
+            this.button2.Text = "На Главную";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
@@ -173,7 +162,7 @@
             this.textBox6.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox6.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(250, 35);
+            this.textBox6.Size = new System.Drawing.Size(250, 29);
             this.textBox6.TabIndex = 26;
             // 
             // label6
@@ -185,6 +174,17 @@
             this.label6.Size = new System.Drawing.Size(84, 31);
             this.label6.TabIndex = 27;
             this.label6.Text = "Result";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(86, 340);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(231, 79);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Расчёт";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // LW4
             // 
@@ -224,9 +224,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
