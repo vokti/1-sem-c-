@@ -79,9 +79,11 @@ namespace LWlib
             double opy = ay;
             for (int x = 0; x <= Math.Abs((bx - ax) / hx); x++)
             {
-
+                opy = ay;
                 for (int i = 0; x <= Math.Abs((by - ay) / hy); i++)
                 {
+                    l.Rows.Add(x,i,opx,opy,Math.Pow(opx,8)-opy-0.4*Math.Pow(x,3)-1.2);
+
 
                 }
             }
