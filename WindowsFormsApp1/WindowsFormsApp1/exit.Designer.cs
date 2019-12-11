@@ -39,9 +39,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(59, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 21);
+            this.label1.Size = new System.Drawing.Size(260, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Вы уверенны что хотите выйти?";
+            this.label1.Text = "Вы уверены что хотите выйти?";
             // 
             // button1
             // 

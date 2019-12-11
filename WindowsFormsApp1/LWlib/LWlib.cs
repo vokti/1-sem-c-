@@ -78,21 +78,21 @@ namespace LWlib
             double opx = ax;
             double opy = ay;
             double z;
-            for (int x = 1; x <= Math.Abs((bx - ax) / hx); x++)
+            for (int x = 1; x <= Math.Abs((bx - ax) / hx)+1; x++)
             {
                 opy = ay;
-                for (int i = 1; i <= Math.Abs((by - ay) / hy); i++)
+                for (int i = 1; i <= Math.Abs((by - ay) / hy)+1; i++)
                 {
-                    z = Math.Pow(opx, 8) - opy - 0.4 * Math.Pow(x, 3) - 1.2;
+                    z = Math.Pow(opx, 8) - opy - 0.4 * Math.Pow(opx, 3) - 1.2;
                     Vivod(l,x,i,opx,opy,z);
-                    opy++;
+                    opy+=hy;
                     if (z < 0)
                     {
                         q++;
                         c *= z;
                     }
                 }
-                opx++;
+                opx+=hx;
             }
             double[] qe=new double[2] {c,q};
             return qe;
