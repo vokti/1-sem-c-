@@ -15,3 +15,13 @@ D:\github\1-sem-c-\WindowsFormsApp1\LWlib\obj\Debug\netstandard2.0\LWlib.Assembl
 D:\github\1-sem-c-\WindowsFormsApp1\LWlib\obj\Debug\netstandard2.0\LWlib.AssemblyInfo.cs
 D:\github\1-sem-c-\WindowsFormsApp1\LWlib\obj\Debug\netstandard2.0\LWlib.dll
 D:\github\1-sem-c-\WindowsFormsApp1\LWlib\obj\Debug\netstandard2.0\LWlib.pdb
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\ru\System.Windows.Forms.resources.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\ru\System.Security.resources.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\ru\System.Configuration.resources.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\ru\System.Deployment.resources.dll
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\LWlib\bin\Debug\netstandard2.0\ru\System.Runtime.Serialization.Formatters.Soap.resources.dll

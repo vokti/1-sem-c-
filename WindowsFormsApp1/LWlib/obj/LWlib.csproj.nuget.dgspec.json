@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {}
+    "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {}
   },
   "projects": {
-    "D:\\github\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {
+    "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
+        "projectUniqueName": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
         "projectName": "LWlib",
-        "projectPath": "D:\\github\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
-        "packagesPath": "C:\\Users\\Hornir\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\1-sem-c-\\WindowsFormsApp1\\LWlib\\obj\\",
+        "projectPath": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\LWlib.csproj",
+        "packagesPath": "C:\\Users\\super pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\super pc\\Documents\\GitHub\\1-sem-c-\\WindowsFormsApp1\\LWlib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hornir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\super pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

@@ -90,5 +90,12 @@ namespace WindowsFormsApp1
             x.Show();
             this.Hide();
         }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            Form y = new LW6.LW6();
+            y.Show();
+            this.Hide();
+        }
     }
 }

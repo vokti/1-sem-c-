@@ -55,5 +55,7 @@ namespace WindowsFormsApp1.LW4
             l.Show();
             this.Close();
         }
+
+
     }
 }
