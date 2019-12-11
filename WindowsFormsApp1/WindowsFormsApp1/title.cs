@@ -97,5 +97,12 @@ namespace WindowsFormsApp1
             y.Show();
             this.Hide();
         }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            Form x = new LW7.LW7title();
+            x.Show();
+            this.Hide();
+        }
     }
 }

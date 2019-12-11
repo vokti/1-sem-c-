@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.n = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Y = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,9 +41,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.n = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Y = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +61,24 @@
             this.dataGridView1.Size = new System.Drawing.Size(600, 500);
             this.dataGridView1.TabIndex = 0;
             // 
+            // n
+            // 
+            this.n.HeaderText = "Номер шага";
+            this.n.Name = "n";
+            this.n.Width = 50;
+            // 
+            // X
+            // 
+            this.X.HeaderText = "Аргумент функции";
+            this.X.Name = "X";
+            this.X.Width = 230;
+            // 
+            // Y
+            // 
+            this.Y.HeaderText = "Значение функции";
+            this.Y.Name = "Y";
+            this.Y.Width = 280;
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -79,7 +97,7 @@
             this.textBox6.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox6.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(250, 35);
+            this.textBox6.Size = new System.Drawing.Size(250, 29);
             this.textBox6.TabIndex = 27;
             // 
             // textBox1
@@ -89,7 +107,7 @@
             this.textBox1.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox1.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 35);
+            this.textBox1.Size = new System.Drawing.Size(250, 29);
             this.textBox1.TabIndex = 28;
             // 
             // textBox2
@@ -99,7 +117,7 @@
             this.textBox2.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox2.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 35);
+            this.textBox2.Size = new System.Drawing.Size(250, 29);
             this.textBox2.TabIndex = 29;
             // 
             // label1
@@ -129,7 +147,7 @@
             this.textBox3.MaximumSize = new System.Drawing.Size(350, 35);
             this.textBox3.MinimumSize = new System.Drawing.Size(250, 35);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(309, 35);
+            this.textBox3.Size = new System.Drawing.Size(309, 29);
             this.textBox3.TabIndex = 33;
             // 
             // label6
@@ -151,24 +169,6 @@
             this.label3.Size = new System.Drawing.Size(291, 31);
             this.label3.TabIndex = 34;
             this.label3.Text = "Максимальное значение";
-            // 
-            // n
-            // 
-            this.n.HeaderText = "Номер шага";
-            this.n.Name = "n";
-            this.n.Width = 50;
-            // 
-            // X
-            // 
-            this.X.HeaderText = "Аргумент функции";
-            this.X.Name = "X";
-            this.X.Width = 230;
-            // 
-            // Y
-            // 
-            this.Y.HeaderText = "Значение функции";
-            this.Y.Name = "Y";
-            this.Y.Width = 280;
             // 
             // button2
             // 
@@ -199,7 +199,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "LW5";
-            this.Text = "Form2";
+            this.Text = "LW5";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

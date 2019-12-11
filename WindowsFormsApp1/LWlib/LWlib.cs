@@ -98,4 +98,24 @@ namespace LWlib
             return qe;
         }
     }
+    public class LW7c
+    {
+        public void Vivod(DataGridView l, int n, double z)
+        {
+            l.Rows.Add(n, z);
+        }
+        public double Ex(DataGridView l, double z, double x)
+        {
+            int k = 1;
+            double zn = x / (x - 0.5);
+            while (zn > z)
+            {
+                zn *= x * k / (k + 1);
+                k += 1;
+                Vivod(l, k, zn);
+            }
+            return k;
+        }
+    }
+
 }

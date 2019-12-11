@@ -47,6 +47,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Федеральное
@@ -271,6 +272,18 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
+            // button7
+            // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button7.Location = new System.Drawing.Point(305, 526);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(121, 82);
+            this.button7.TabIndex = 19;
+            this.button7.Text = "Laborotory work 7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            // 
             // title
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -278,6 +291,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -328,6 +342,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 

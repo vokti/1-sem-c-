@@ -30,8 +30,8 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,14 +59,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1245, 914);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -76,6 +68,14 @@
             this.label1.Size = new System.Drawing.Size(215, 21);
             this.label1.TabIndex = 29;
             this.label1.Text = "Лабораторная работа №5\r\n";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1245, 914);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
             // 
             // LW5title
             // 
@@ -87,7 +87,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "LW5title";
-            this.Text = "Form1";
+            this.Text = "LW5title";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.LW5title_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

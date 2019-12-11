@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -117,6 +118,18 @@
     <Compile Include="LW6\LW6.Designer.cs">
       <DependentUpon>LW6.cs</DependentUpon>
     </Compile>
+    <Compile Include="LW7\LW7title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW7\LW7title.Designer.cs">
+      <DependentUpon>LW7title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LW7\LW7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LW7\LW7.Designer.cs">
+      <DependentUpon>LW7.cs</DependentUpon>
+    </Compile>
     <Compile Include="title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LW6\LW6.resx">
       <DependentUpon>LW6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW7\LW7.resx">
+      <DependentUpon>LW7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LW7\LW7title.resx">
+      <DependentUpon>LW7title.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="title.resx">
       <DependentUpon>title.cs</DependentUpon>

@@ -42,3 +42,5 @@ C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\ob
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW5.LW5.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW5.LW5title.resources
 C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW6.LW6.resources
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW7.LW7.resources
+C:\Users\super pc\Documents\GitHub\1-sem-c-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LW7.LW7title.resources
